@@ -5,35 +5,35 @@
 // 7 -> да
 // 1 -> нет
 
-Console.WriteLine("Введите цифру дня недели"); 
+Console.Write("Введите цифру дня недели : "); 
 int day = Convert.ToInt32(Console.ReadLine()); 
 if (day == 1) 
 { 
-    Console.Write("Понедельник : - нет "); 
+    Console.Write("Нет "); 
 } 
 else if (day == 2) 
 { 
-    Console.Write("Вторник : - нет "); 
+    Console.Write("Нет "); 
 } 
 else if (day == 3) 
 { 
-    Console.Write("Среда : - нет "); 
+    Console.Write("Нет "); 
 } 
 else if (day == 4) 
 { 
-    Console.Write("Четверг : - нет "); 
+    Console.Write("Нет "); 
 } 
 else if (day == 5) 
 { 
-    Console.Write("Пятница : - всё ещё нет"); 
+    Console.Write("Нет"); 
 } 
 else if (day == 6) 
 { 
-    Console.Write("Суббота : - да, выходной!!!!"); 
+    Console.Write("Да "); 
 } 
 else if (day == 7) 
 { 
-    Console.Write("Воскресенье : - да, выходной, но завтра снова понедельник "); 
+    Console.Write("Да"); 
 } 
 else 
-Console.WriteLine("День недели не найден, попробуйте ввести цифры от 1 до 7 ");
+Console.WriteLine("Ошибка ввода, попробуйте ввести цифры от 1 до 7 ");
